@@ -1,0 +1,9 @@
+Requirements:
+- well-formed HTML doc
+- external stylesheet
+- only desktop 
+- use flexbox for building the layout
+- use same image for the various columns but play with background-position and also use wrappers with fixed height and overflow: hidden to create the needed boundaries
+- colors: #e7a06c (orange), #747273(grey)
+- suggested fonts: Avenir Next Condensed, Avenir
+- work on fixed, centered width (common choice: 960px)
