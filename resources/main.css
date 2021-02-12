@@ -19,6 +19,7 @@ section {
     font-family: 'Roboto', sans-serif;
 }
 
+/* puteam avea si o clasa comuna aici pentru acest set de reguli de stil */
 .image-wrapper, .image-wrapper-2, .image-wrapper-3 {
     width: 320px;
     background-image: url(../assets/bg.jpg);
