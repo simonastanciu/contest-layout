@@ -19,15 +19,14 @@ section {
     font-family: 'Roboto', sans-serif;
 }
 
-/* puteam avea si o clasa comuna aici pentru acest set de reguli de stil */
-.image-wrapper, .image-wrapper-2, .image-wrapper-3 {
+.image-cover {
     width: 320px;
     background-image: url(../assets/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.image-wrapper {
+.image-wrapper-1 {
     height: 900px;
     background-position: left;
     position: relative;
@@ -122,11 +121,7 @@ p {
 }
 
 .prizes {
-    padding-bottom: 5px;
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    padding-bottom: 5px 10px;
     font-size: 18px;
 }
 
@@ -134,8 +129,12 @@ p {
     padding: 2px 0;
 }
 
-.place-prize {
-    font-weight: 600;
+.place-prize div {
+    font-weight:  600;
+}
+
+.place-prize span {
+    font-weight: 400;
 }
 
 .prize-extra {
