@@ -6,10 +6,10 @@
         <meta name="keywords" content="responsive, layout, css, html">
         <meta name="author" content="Simona Stanciu">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="resources/main.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <!-- este mai ok sa incarcam resursele de acest tip inainte sa le folosim in fisierul nostru css -->
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="resources/main.css">
 
     </head>
     <body>
@@ -21,11 +21,13 @@
                     </div>
                     <div class="logo-text">LIMA <br>DESIGN <br>NEWTORK</div>
                 </div>
-                <h1>RIVER PARK</h1>
-                <!-- structural, nu ar trebui sa sarim nici un nivel aici, tu h2 nu folosesti. cum arata si daca este mai mic, mai mare etc decizi din css, nu din html -->
-                <!-- nu tot ce avem in pagina trebuie sa fie un titlu, poate sa fie doar o informatie, era mai mult decat suficient sa folosesti un h1 aici -->
-                <h3>CONTEST LAUNCH</h3>
-                <h4>LIMA <br> 2020 </h4>
+                <div class="main-title">
+                    <h1>RIVER PARK</h1>
+                    <!-- structural, nu ar trebui sa sarim nici un nivel aici, tu h2 nu folosesti. cum arata si daca este mai mic, mai mare etc decizi din css, nu din html -->
+                    <!-- nu tot ce avem in pagina trebuie sa fie un titlu, poate sa fie doar o informatie, era mai mult decat suficient sa folosesti un h1 aici -->
+                    <div>CONTEST LAUNCH</div>
+                    <div>LIMA <br> 2020 </div>
+                </div>    
             </div>
 
             <div class="column">
@@ -50,9 +52,12 @@
                     <div class="prizes"> 
                         <!-- elementele astea puteau fi grupate impreuna, structura asa le vedem -->
                         <div class="place-prize">
-                            <div>1st PLACE <span>$ 25.000</span></div>
-                            <div>2nd PLACE <span>$ 15.000</span></div>
-                            <div>3rd PLACE <span>$ 5.000</span></div>
+                            <div>1st PLACE</div>
+                            <div>$ 25.000</div>
+                            <div>2nd PLACE</div>
+                            <div>$ 15.000</div>
+                            <div>3rd PLACE</div>
+                            <div>$ 5.000</div>
                         </div>  
                     </div>
                     <div class="prize-extra">+Additional prizes</div> 
@@ -78,7 +83,7 @@
                 </div>
 
                 <div class="info-wrapper">
-                    <h4>+ INFO AND INSCRIPTIONES</h4>
+                    <div>+ INFO AND INSCRIPTIONES</div>
                     <div>contact@contact.com</div>
                     <div>www.contestdesign.network</div>
                 </div>
